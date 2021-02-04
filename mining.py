@@ -28,11 +28,11 @@ if __name__ == '__main__':
         Henry->James->25
     """
     #increase difficulty takes longer time 
-    difficulty= 5
+    difficulty= 6
     import time
     start = time.time()
     print("start mining")
-    new_hash = mine(5,transactions,'b5d4045c3f466fa91fe2cc6abe79232a1a57cdf104f7a26e716e0a1e2789df78',difficulty)
+    new_hash = mine(5,transactions,'00000000839a8e6886ab5951d76f411475428afc90947ee320161bbf18eb6048',difficulty)
     total_time= str((time.time() - start))
     print(f'end mining... Mining took: {total_time} seconds ')
     print(new_hash)
